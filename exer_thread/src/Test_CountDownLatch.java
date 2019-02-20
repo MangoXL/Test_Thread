@@ -1,6 +1,6 @@
 import java.util.concurrent.CountDownLatch;
 
-public class Test_CountDowmLatch {
+public class Test_CountDownLatch {
     public static void main(String[] args) throws InterruptedException {
         CountDownLatch countDownLatch = new CountDownLatch(6);
         for(int i = 1; i <= 6; i++){
